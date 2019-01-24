@@ -282,3 +282,17 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_SEARCH_TE
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_SEARCH_TEXT_AT_LEAST_ONE_WORD','en','At least one word');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_SEARCH_TEXT_EXACT','it','Frase esatta');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_SEARCH_TEXT_EXACT','en','Exact');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_application_downPayment','en','Down Payment');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_application_downPayment','it','Down Payment');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_application_amortization','en','Mortgage Amortization');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_application_amortization','it','Mortgage Amortization');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_applicant_name','en','Applicant Name');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_applicant_name','it','Applicant Name');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_applicant_ssn','en','Social Security Number');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_applicant_ssn','it','Social Security Number');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_applicant_income','en','Annual Income');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_applicant_income','it','Annual Income');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_property_address','en','Property Address');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_property_address','it','Property Address');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_property_price','en','Sale Price');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_property_price','it','Sale Price');

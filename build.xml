@@ -1,0 +1,7 @@
+<project name="entando-pam-app-5.0.3" default="WAR-build" basedir=".">
+	<description>entando-pam-app-5.0.3 - Build file</description>
+
+	<import file="buildProperties.xml"/>
+	<import file="buildTasks.xml"/>
+
+</project>

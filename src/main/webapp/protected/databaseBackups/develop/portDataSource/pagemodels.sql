@@ -15,108 +15,111 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('servi
 </body>
 </html>');
 INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('home','Home Page',NULL,NULL,NULL);
-INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entando-page-inspinia','Inspinia - BPM layout','<frames>
-    <frame pos="0">
-        <descr>Sidebar 1</descr>
-        <sketch x1="0" y1="0" x2="1" y2="0" />
-    </frame>
-    <frame pos="1">
-        <descr>Top Bar 1</descr>
-        <sketch x1="2" y1="0" x2="4" y2="0" />
-    </frame>
-    <frame pos="2">
-        <descr>Top Bar 2</descr>
-        <sketch x1="5" y1="0" x2="7" y2="0" />
-    </frame>
-    <frame pos="3">
-        <descr>Top Bar 3</descr>
-        <sketch x1="8" y1="0" x2="9" y2="0" />
-    </frame>
-    <frame pos="4">
-        <descr>Top Bar 4</descr>
-        <sketch x1="10" y1="0" x2="11" y2="0" />
-    </frame>
-    <frame pos="5">
-        <descr>Left</descr>
-        <sketch x1="2" y1="1" x2="4" y2="1" />
-    </frame>
-    <frame pos="6">
-        <descr>Center</descr>
-        <sketch x1="5" y1="1" x2="7" y2="1" />
-    </frame>
-    <frame pos="7">
-        <descr>Right</descr>
-        <sketch x1="8" y1="1" x2="11" y2="1" />
-    </frame>
-    <frame pos="8">
-        <descr>Sidebar 2</descr>
-        <sketch x1="0" y1="1" x2="1" y2="1" />
-    </frame>
-    <frame pos="9">
-        <descr>Full 1</descr>
-        <sketch x1="2" y1="2" x2="11" y2="2" />
-    </frame>
-    <frame pos="10">
-        <descr>Sidebar 3</descr>
-        <sketch x1="0" y1="2" x2="1" y2="2" />
-    </frame>
-    <frame pos="11" main="true">
-        <descr>full 2</descr>
-        <sketch x1="2" y1="3" x2="11" y2="3" />
-    </frame>
-    <frame pos="12">
-        <descr>Sidebar 4</descr>
-        <sketch x1="0" y1="3" x2="1" y2="3" />
-    </frame>
-    <frame pos="13">
-        <descr>Content left</descr>
-        <sketch x1="2" y1="4" x2="6" y2="4" />
-    </frame>
-    <frame pos="14">
-        <descr>Content right</descr>
-        <sketch x1="7" y1="4" x2="11" y2="4" />
-    </frame>
-    <frame pos="15">
-        <descr>Sidebar 5</descr>
-        <sketch x1="0" y1="4" x2="1" y2="4" />
-    </frame>
-    <frame pos="16">
-        <descr>Full 3</descr>
-        <sketch x1="2" y1="5" x2="11" y2="5" />
-    </frame>
-    <frame pos="17">
-        <descr>Sidebar 5</descr>
-        <sketch x1="0" y1="5" x2="1" y2="5" />
-    </frame>
-    <frame pos="18">
-        <descr>Left</descr>
-        <sketch x1="0" y1="6" x2="3" y2="6" />
-    </frame>
-    <frame pos="19">
-        <descr>Center</descr>
-        <sketch x1="4" y1="6" x2="7" y2="6" />
-    </frame>
-    <frame pos="20">
-        <descr>Right</descr>
-        <sketch x1="8" y1="6" x2="11" y2="6" />
-    </frame>
-    <frame pos="21">
-        <descr>Left</descr>
-        <sketch x1="0" y1="7" x2="3" y2="7" />
-    </frame>
-    <frame pos="22">
-        <descr>Center</descr>
-        <sketch x1="4" y1="7" x2="7" y2="7" />
-    </frame>
-    <frame pos="23">
-        <descr>Right</descr>
-        <sketch x1="8" y1="7" x2="11" y2="7" />
-    </frame>
-    <frame pos="24">
-        <descr>Footer</descr>
-        <sketch x1="0" y1="8" x2="11" y2="8" />
-    </frame>
-</frames>',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
+INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entando-page-inspinia','Inspinia - BPM layout','<?xml version="1.0" encoding="UTF-8"?>
+<frames>
+	<frame pos="0">
+		<descr>Sidebar 1</descr>
+		<sketch x1="0" y1="0" x2="1" y2="0" />
+	</frame>
+	<frame pos="1">
+		<descr>Top Bar 1</descr>
+		<sketch x1="2" y1="0" x2="4" y2="0" />
+	</frame>
+	<frame pos="2">
+		<descr>Top Bar 2</descr>
+		<sketch x1="5" y1="0" x2="7" y2="0" />
+	</frame>
+	<frame pos="3">
+		<descr>Top Bar 3</descr>
+		<sketch x1="8" y1="0" x2="9" y2="0" />
+	</frame>
+	<frame pos="4">
+		<descr>Top Bar 4</descr>
+		<sketch x1="10" y1="0" x2="11" y2="0" />
+	</frame>
+	<frame pos="5">
+		<descr>Left</descr>
+		<sketch x1="2" y1="1" x2="4" y2="1" />
+	</frame>
+	<frame pos="6">
+		<descr>Center</descr>
+		<sketch x1="5" y1="1" x2="7" y2="1" />
+	</frame>
+	<frame pos="7">
+		<descr>Right</descr>
+		<sketch x1="8" y1="1" x2="11" y2="1" />
+	</frame>
+	<frame pos="8">
+		<descr>Sidebar 2</descr>
+		<sketch x1="0" y1="1" x2="1" y2="1" />
+	</frame>
+	<frame pos="9">
+		<descr>Full 1</descr>
+		<sketch x1="2" y1="2" x2="11" y2="2" />
+	</frame>
+	<frame pos="10">
+		<descr>Sidebar 3</descr>
+		<sketch x1="0" y1="2" x2="1" y2="2" />
+	</frame>
+	<frame pos="11" main="true">
+		<descr>full 2</descr>
+		<sketch x1="2" y1="3" x2="11" y2="3" />
+	</frame>
+	<frame pos="12">
+		<descr>Sidebar 4</descr>
+		<sketch x1="0" y1="3" x2="1" y2="3" />
+	</frame>
+	<frame pos="13">
+		<descr>Content left</descr>
+		<sketch x1="2" y1="4" x2="6" y2="4" />
+	</frame>
+	<frame pos="14">
+		<descr>Content right</descr>
+		<sketch x1="7" y1="4" x2="11" y2="4" />
+	</frame>
+	<frame pos="15">
+		<descr>Sidebar 5</descr>
+		<sketch x1="0" y1="4" x2="1" y2="4" />
+	</frame>
+	<frame pos="16">
+		<descr>Full 3</descr>
+		<sketch x1="2" y1="5" x2="11" y2="5" />
+	</frame>
+	<frame pos="17">
+		<descr>Sidebar 5</descr>
+		<sketch x1="0" y1="5" x2="1" y2="5" />
+	</frame>
+	<frame pos="18">
+		<descr>Left</descr>
+		<sketch x1="0" y1="6" x2="3" y2="6" />
+	</frame>
+	<frame pos="19">
+		<descr>Center</descr>
+		<sketch x1="4" y1="6" x2="7" y2="6" />
+	</frame>
+	<frame pos="20">
+		<descr>Right</descr>
+		<sketch x1="8" y1="6" x2="11" y2="6" />
+	</frame>
+	<frame pos="21">
+		<descr>Left</descr>
+		<sketch x1="0" y1="7" x2="3" y2="7" />
+	</frame>
+	<frame pos="22">
+		<descr>Center</descr>
+		<sketch x1="4" y1="7" x2="7" y2="7" />
+	</frame>
+	<frame pos="23">
+		<descr>Right</descr>
+		<sketch x1="8" y1="7" x2="11" y2="7" />
+	</frame>
+	<frame pos="24">
+		<descr>Footer</descr>
+		<sketch x1="0" y1="8" x2="11" y2="8" />
+	</frame>
+</frames>
+
+',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
 <#assign c=JspTaglibs["http://java.sun.com/jsp/jstl/core"]>
 <!DOCTYPE html>
 <html lang="en">
@@ -275,109 +278,6 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entan
     </div>
 </body>
 </html>');
-INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('PAM-widgets','PAM widgets DEMO','<?xml version="1.0" encoding="UTF-8"?>
-<frames>
-	<frame pos="0">
-		<descr>HEADER</descr>
-		<sketch x1="0" y1="0" x2="11" y2="0" />
-	</frame>
-	<frame pos="1">
-		<descr>Widget 1</descr>
-		<sketch x1="0" y1="1" x2="11" y2="1" />
-	</frame>
-	<frame pos="2">
-		<descr>Widget 2</descr>
-		<sketch x1="0" y1="2" x2="11" y2="2" />
-	</frame>
-	<frame pos="3">
-		<descr>Widget 3</descr>
-		<sketch x1="0" y1="3" x2="5" y2="6" />
-	</frame>
-	<frame pos="4">
-		<descr>Widget 5</descr>
-		<sketch x1="6" y1="3" x2="11" y2="6" />
-	</frame>
-	<frame pos="5">
-		<descr>Widget 5</descr>
-		<sketch x1="0" y1="7" x2="11" y2="10" />
-	</frame>
-	<frame pos="6">
-		<descr>Footer</descr>
-		<sketch x1="0" y1="11" x2="11" y2="12" />
-	</frame>
-</frames>
-
-',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
-<#assign c=JspTaglibs["http://java.sun.com/jsp/jstl/core"]>
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>
-            <@wp.currentPage param="title" /> - <@wp.i18n key="PORTAL_TITLE" />
-        </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <link rel="icon" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />
-              favicon.png" type="image/png" />
-              <@c.import url="/WEB-INF/aps/jsp/models/inc/content_inline_editing.jsp" />
-              <@c.import url="/WEB-INF/aps/jsp/models/inc/header-inclusions.jsp" />
-    </head>
-    <body class="bpm-inspinia">
-        <div class="pace pace-inactive">
-            <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
-                <div class="pace-progress-inner"></div>
-            </div>
-            <div class="pace-activity"></div>
-        </div>
-        <!--HEADER-->
-        <@wp.show frame=0 />
-        <header class="header-fixed">
-            <div class="header-limiter">
-                <h1>
-                    <a href="#">Entando Case Management Widgets<span></span></a>
-                </h1>
-                <span class=" text-right user-logged">Entando Admin</span>
-            </div>
-        </header>
-        <!--END HEADER-->
-
-        <div  class="container-bpm" style="margin:10px;">
-            <div class="row ">
-                <div class="col-md-12">
-                    <@wp.show frame=1 />
-                </div>
-            </div>
-
-            <div class="row white-bg">
-                <div class="col-md-12">
-                    <@wp.show frame=2 />
-                </div>
-            </div>
-            <div class="row white-bg">
-                <div class="col-md-12">
-                    <@wp.show frame=3 />
-                </div>
-            </div>
-            <div class="row white-bg">
-                <div class="col-md-6">
-                    <@wp.show frame=4 />
-                </div>
-                <div class="col-md-6">
-                    <@wp.show frame=5 />
-                </div>
-            </div>
-
-            <!--Footer-->
-            <div class="col-md-12">
-                <@wp.show frame=6 />
-            </div>
-            <!--END Footer-->
-        </div>
-    </div>
-</body>
-</html>');
 INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entando-page-inspinia_BPM','Inspinia - BPM Case Management widgets','<?xml version="1.0" encoding="UTF-8"?>
 <frames>
 	<frame pos="0">
@@ -528,4 +428,93 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entan
             </div>
         </div>
     </body>
+</html>');
+INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('PAM-widgets','PAM widgets DEMO','<?xml version="1.0" encoding="UTF-8"?>
+<frames>
+	<frame pos="0">
+		<descr>HEADER</descr>
+		<sketch x1="0" y1="0" x2="11" y2="0" />
+	</frame>
+	<frame pos="1">
+		<descr>Widget 1</descr>
+		<sketch x1="0" y1="1" x2="11" y2="1" />
+	</frame>
+	<frame pos="2">
+		<descr>Widget 2</descr>
+		<sketch x1="0" y1="2" x2="11" y2="2" />
+	</frame>
+	<frame pos="3">
+		<descr>Widget 3</descr>
+		<sketch x1="0" y1="3" x2="5" y2="6" />
+	</frame>
+	<frame pos="4">
+		<descr>Widget 5</descr>
+		<sketch x1="6" y1="3" x2="11" y2="6" />
+	</frame>
+	<frame pos="5">
+		<descr>Widget 5</descr>
+		<sketch x1="0" y1="7" x2="11" y2="10" />
+	</frame>
+	<frame pos="6">
+		<descr>Footer</descr>
+		<sketch x1="0" y1="11" x2="11" y2="12" />
+	</frame>
+</frames>
+
+',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
+<#assign c=JspTaglibs["http://java.sun.com/jsp/jstl/core"]>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>
+            <@wp.currentPage param="title" /> - <@wp.i18n key="PORTAL_TITLE" />
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link rel="icon" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />
+              favicon.png" type="image/png" />
+              <@c.import url="/WEB-INF/aps/jsp/models/inc/content_inline_editing.jsp" />
+              <@c.import url="/WEB-INF/aps/jsp/models/inc/header-inclusions.jsp" />
+    </head>
+    <body class="bpm-inspinia">
+        <!--HEADER-->
+        <@wp.show frame=0 />
+        <!--END HEADER-->
+
+        <div  class="container-bpm" style="margin:10px;">
+            <div class="row ">
+                <div class="col-md-12">
+                    <@wp.show frame=1 />
+                </div>
+            </div>
+
+            <div class="row white-bg">
+                <div class="col-md-12">
+                    <@wp.show frame=2 />
+                </div>
+            </div>
+            <div class="row white-bg">
+                <div class="col-md-12">
+                    <@wp.show frame=3 />
+                </div>
+            </div>
+            <div class="row white-bg">
+                <div class="col-md-6">
+                    <@wp.show frame=4 />
+                </div>
+                <div class="col-md-6">
+                    <@wp.show frame=5 />
+                </div>
+            </div>
+
+            <!--Footer-->
+            <div class="col-md-12">
+                <@wp.show frame=6 />
+            </div>
+            <!--END Footer-->
+        </div>
+    </div>
+</body>
 </html>');

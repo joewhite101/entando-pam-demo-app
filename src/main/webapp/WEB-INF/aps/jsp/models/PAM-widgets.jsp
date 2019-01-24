@@ -16,56 +16,43 @@
               <@c.import url="/WEB-INF/aps/jsp/models/inc/header-inclusions.jsp" />
     </head>
     <body class="bpm-inspinia">
-        <div class="pace pace-inactive">
-            <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
-                <div class="pace-progress-inner"></div>
-            </div>
-            <div class="pace-activity"></div>
-        </div>
         <!--HEADER-->
-        <@wp.show frame=0 />
-        <header class="header-fixed">
-            <div class="header-limiter">
-                <h1>
-                    <a href="#">Entando Case Management Widgets<span></span></a>
-                </h1>
-                <span class=" text-right user-logged">Entando Admin</span>
-            </div>
-        </header>
-        <!--END HEADER-->
+    <wp:show frame="0" />
 
-        <div  class="container-bpm" style="margin:10px;">
-            <div class="row ">
-                <div class="col-md-12">
-                    <@wp.show frame=1 />
-                </div>
-            </div>
-
-            <div class="row white-bg">
-                <div class="col-md-12">
-                    <@wp.show frame=2 />
-                </div>
-            </div>
-            <div class="row white-bg">
-                <div class="col-md-12">
-                    <@wp.show frame=3 />
-                </div>
-            </div>
-            <div class="row white-bg">
-                <div class="col-md-6">
-                    <@wp.show frame=4 />
-                </div>
-                <div class="col-md-6">
-                    <@wp.show frame=5 />
-                </div>
-            </div>
-
-            <!--Footer-->
+    <div  class="container-bpm" style="margin:10px;">
+        <div class="row ">
             <div class="col-md-12">
-                <@wp.show frame=6 />
+                <@wp.show frame=1 />
             </div>
-            <!--END Footer-->
         </div>
+
+        <div class="row white-bg">
+            <div class="col-md-12">
+                <@wp.show frame=2 />
+            </div>
+        </div>
+        <div class="row white-bg">
+            <div class="col-md-12">
+                <@wp.show frame=3 />
+            </div>
+        </div>
+        <div class="row white-bg">
+            <div class="col-md-6">
+                <@wp.show frame=4 />
+            </div>
+            <div class="col-md-6">
+                <@wp.show frame=5 />
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div class="col-md-12">
+            <@wp.show frame=6 />
+        </div>
+        <!--END Footer-->
     </div>
+</div>
 </body>
 </html>
+
+

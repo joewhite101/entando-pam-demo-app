@@ -20,8 +20,8 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
 </properties>','service',1,NULL,'2017-02-17 21:11:54');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('homepage','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Task page</property>
-<property key="it">Task page</property>
+<property key="en">Home page</property>
+<property key="it">Home page</property>
 </properties>
 
 ','PAM-widgets',1,'<?xml version="1.0" encoding="UTF-8"?>
@@ -31,4 +31,4 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2019-01-24 11:49:28');
+','2019-01-24 14:59:25');

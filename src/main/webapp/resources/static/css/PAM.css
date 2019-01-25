@@ -3,34 +3,34 @@ body {
     padding: 0;
     height: 100vh;
 }
-.header-fixed {
-    background-color: #828282;
+.header-fix {
+    background-color: #ffffff;
     box-shadow: 0 1px 1px #ccc;
-    padding: 20px 40px;
+    padding: 20px 60px;
     height: 100px;
-    color: #ffffff;
+    /* color: #ffffff; */
     box-sizing: border-box;
     top: -100px;
     -webkit-transition: top 0.3s;
     transition: top 0.3s;
     margin-bottom: 3em;
 }
-body.fixed .header-fixed {
+body.fixed .header-fix {
     padding: 10px 40px;
-    height: 57px;
+    height: 72px;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 5;
 }
-.header-fixed .header-limiter .user-logged {
+.header-fix .header-limit .user-logged {
     float: right;
     line-height: 49px;
     margin: 0;
     font-size: 16px;
 }
-.header-fixed .header-limiter h1 {
+.header-fix .header-limit h1 {
     float: left;
     line-height: 47px;
     margin: 0;
@@ -55,8 +55,8 @@ a:focus, a:hover {
 }
 hr {
     border-top: 1px solid #e4e7e9;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 21px;
+    margin-top: 34px;
 }
 .btn-default {
     background-color: #ff9f2a;
@@ -103,15 +103,17 @@ hr {
     background-color: #f0f4f6;
 }
 .footer2 {
-    background-color: #08202e;
-    padding: 38px 46px 0 46px;
+    background-color: #20364a;
     color: #636e74;
     font-weight: 400;
     font-size: 17px;
-    margin: 0 0 -10px 0;
+    margin-top: 8em;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 34px 119px 0px 119px;
 }
 .footer2-line {
-    border-color: #152e3d;
+    border-color: #ffffff;
 }
 .footer2-widget {
     padding-bottom: 50px;
@@ -119,15 +121,15 @@ hr {
 .footer2-title {
     font-size: 24px;
     font-weight: 600;
-    margin-bottom: 44px;
+    margin-bottom: 5px;
     color: #fff;
 }
 .footer2-widget ul li a {
     text-transform: capitalize;
-    font-size: 17px;
-    color: #636e74;
+    font-size: 15px;
+    color: #eeeeee;
     display: block;
-    font-weight: 600;
+    font-weight: 500;
 }
 .footer2-widget ul li a:hover {
     color: #fff;
@@ -136,7 +138,7 @@ hr {
     padding-top: 15px;
 }
 .newsletter-form .form-control {
-    background-color: #1e2e38;
+    background-color: #0078c1;
     border-color: #1e2e38;
 }
 .newsletter-form .form-control:focus {
@@ -150,11 +152,11 @@ hr {
 }
 .tiny-footer2 {
     font-size: 14px;
-    padding: 14px 0px;
+    padding: 5px 0px;
     font-weight: 600;
     background-color: transparent;
-    border-top: 1px solid #152e3d;
-    color: #888d90;
+    border-top: 1px solid #eeeeee;
+    color: #fcfcfc;
     line-height: 1;
 }
 table {
@@ -167,3 +169,13 @@ table {
     margin-left: 0px !important;
 }
 
+.nav > li.active {
+    border-left: 0px solid #19aa8d;
+    background: #0078c1;
+}
+
+.nav > li > a {
+    color: #050505;
+    font-weight: 600;
+    padding: 13px 13px 12px 6px;
+}

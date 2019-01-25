@@ -296,3 +296,13 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_property_
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_property_address','it','Property Address');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_property_price','en','Sale Price');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_property_price','it','Sale Price');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_FORM_application','en','APPLICATION');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_FORM_application','it','APPLICATION');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_FORM_applicant','en','APPLICANT');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_FORM_applicant','it','APPLICANT');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_FORM_property','en','PROPERTY');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_FORM_property','it','PROPERTY');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_TITLE_MortgageApplication','en','PROCESS MORTGAGEAPPLICATION');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_TITLE_MortgageApplication','it','PROCESS MORTGAGEAPPLICATION');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_brokerOverrideTaskOutput','en','BrokerOverrideTaskOutput');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_brokerOverrideTaskOutput','it','BrokerOverrideTaskOutput');

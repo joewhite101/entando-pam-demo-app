@@ -35,7 +35,6 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','userProf
 		</attributes>
 	</profiletype>
 </profiletypes>');
-INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','dataTypeDefinitions','Definition of the Type Types','<datatypes />');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','dataobjectsubdir','Name of the sub-directory containing dataobject indexing files','index');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','params','Configuration params.','<?xml version="1.0" encoding="UTF-8"?>
 <Params>
@@ -388,4 +387,20 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','jpkiebpm
       </entry>
    </kieBpmConfigeMap>
 </kiaBpmConfigFactory>
+');
+INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','dataTypeDefinitions','Definition of the Type Types','<?xml version="1.0" encoding="UTF-8"?>
+<datatypes>
+	<datatype typecode="AAA" typedescr="com.redhat.bpms.examples.mortgage.MortgageApplication_mortgage_1.0" viewpage="**NULL**" listmodel="1" defaultmodel="1">
+		<attributes>
+			<attribute name="application_downPayment" attributetype="Number" />
+			<attribute name="application_amortization" attributetype="Number" />
+			<attribute name="applicant_name" attributetype="Monotext" />
+			<attribute name="applicant_ssn" attributetype="Number" />
+			<attribute name="applicant_income" attributetype="Number" />
+			<attribute name="property_address" attributetype="Monotext" />
+			<attribute name="property_price" attributetype="Number" />
+		</attributes>
+	</datatype>
+</datatypes>
+
 ');

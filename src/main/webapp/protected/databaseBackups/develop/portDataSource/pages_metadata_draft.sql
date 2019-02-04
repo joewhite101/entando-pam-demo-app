@@ -46,3 +46,17 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
 </config>
 
 ','2019-01-25 14:28:20');
+INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('case_widgets','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Case Widgets</property>
+<property key="it">Case Widgets</property>
+</properties>
+
+','entando-page-inspinia_BPM',1,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2019-02-04 16:06:59');

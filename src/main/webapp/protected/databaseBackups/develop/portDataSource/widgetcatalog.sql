@@ -233,6 +233,13 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 	<parameter name="navSpec">Rules for the Page List auto-generation</parameter>
 	<action name="navigatorConfig" />
 </config>',NULL,NULL,NULL,1,'free');
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('Header','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Header</property>
+<property key="it">header</property>
+</properties>
+
+',NULL,NULL,NULL,NULL,0,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('demo_nav','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">widget demo nav</property>
@@ -241,14 +248,7 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 
 ',NULL,NULL,'entando-widget-navigation_bar_inspinia','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="navSpec">code(homepage) + code(form)</property>
+<property key="navSpec">code(homepage) + code(form) + code(case_widgets)</property>
 </properties>
 
 ',0,'free');
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('Header','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Header</property>
-<property key="it">header</property>
-</properties>
-
-',NULL,NULL,NULL,NULL,0,'free');

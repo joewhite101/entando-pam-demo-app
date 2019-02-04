@@ -281,8 +281,12 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entan
 INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entando-page-inspinia_BPM','Inspinia - BPM Case Management widgets','<?xml version="1.0" encoding="UTF-8"?>
 <frames>
 	<frame pos="0">
-		<descr>Case instance selector</descr>
+		<descr>HEADER</descr>
 		<sketch x1="0" y1="0" x2="11" y2="0" />
+	</frame>
+	<frame pos="1">
+		<descr>Case instance selector</descr>
+		<sketch x1="0" y1="1" x2="11" y2="1" />
 		<defaultWidget code="bpm-case-instance-selector">
 			<properties>
 				<property key="channel">1</property>
@@ -290,18 +294,18 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entan
 			</properties>
 		</defaultWidget>
 	</frame>
-	<frame pos="1">
+	<frame pos="2">
 		<descr>Case details</descr>
-		<sketch x1="0" y1="1" x2="11" y2="1" />
+		<sketch x1="0" y1="2" x2="11" y2="2" />
 		<defaultWidget code="bpm-case-details">
 			<properties>
 				<property key="channel">1</property>
 			</properties>
 		</defaultWidget>
 	</frame>
-	<frame pos="2">
+	<frame pos="3">
 		<descr>Case progress status</descr>
-		<sketch x1="0" y1="2" x2="11" y2="2" />
+		<sketch x1="0" y1="3" x2="11" y2="3" />
 		<defaultWidget code="bpm-case-progress-status">
 			<properties>
 				<property key="channel">1</property>
@@ -309,25 +313,25 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entan
 			</properties>
 		</defaultWidget>
 	</frame>
-	<frame pos="3">
+	<frame pos="4">
 		<descr>Case roles</descr>
-		<sketch x1="0" y1="3" x2="5" y2="6" />
+		<sketch x1="0" y1="4" x2="5" y2="6" />
 		<defaultWidget code="bpm-case-roles">
 			<properties>
 				<property key="channel">1</property>
 			</properties>
 		</defaultWidget>
 	</frame>
-	<frame pos="4">
+	<frame pos="5">
 		<descr>Case comments</descr>
-		<sketch x1="6" y1="3" x2="11" y2="6" />
+		<sketch x1="6" y1="4" x2="11" y2="6" />
 		<defaultWidget code="bpm-case-comments">
 			<properties>
 				<property key="channel">1</property>
 			</properties>
 		</defaultWidget>
 	</frame>
-	<frame pos="5">
+	<frame pos="6">
 		<descr>Process diagram</descr>
 		<sketch x1="0" y1="7" x2="11" y2="10" />
 		<defaultWidget code="bpm-process-diagram">
@@ -336,7 +340,7 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entan
 			</properties>
 		</defaultWidget>
 	</frame>
-	<frame pos="6">
+	<frame pos="7">
 		<descr>Case chart</descr>
 		<sketch x1="0" y1="11" x2="5" y2="14" />
 		<defaultWidget code="bpm-case-chart">
@@ -345,7 +349,7 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entan
 			</properties>
 		</defaultWidget>
 	</frame>
-	<frame pos="7">
+	<frame pos="8">
 		<descr>Case file</descr>
 		<sketch x1="6" y1="11" x2="11" y2="14" />
 		<defaultWidget code="bpm-case-file">
@@ -353,6 +357,10 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entan
 				<property key="channel">1</property>
 			</properties>
 		</defaultWidget>
+	</frame>
+	<frame pos="9">
+		<descr>Footer</descr>
+		<sketch x1="0" y1="15" x2="11" y2="16" />
 	</frame>
 </frames>
 
@@ -380,20 +388,21 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entan
             </div>
             <div class="pace-activity"></div>
         </div>
-        <header class="header-fixed">
-            <div class="header-limiter">
+        
+        <!--HEADER-->
+        <header class="header-fix">
+            <div class="header-limit">
                 <h1>
-                    <a href="#">Entando Case Management Widgets<span></span></a>
+                    <img alt="image" class="logo" src="<@wp.imgURL />logo_big.png">
                 </h1>
-                <span class=" text-right user-logged">Entando Admin</span>
+                <span class=" text-right user-logged"> Admin
+                    <@wp.show frame=0 />
+                </span>
             </div>
         </header>
+
+        <!--END HEADER-->
         <div  class="container-bpm" style="margin:10px;">
-            <div class="row ">
-                <div class="col-md-12">
-                    <@wp.show frame=0 />
-                </div>
-            </div>
 
             <div class="row white-bg">
                 <div class="col-md-12">
@@ -427,6 +436,9 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entan
                 </div>
             </div>
         </div>
+        <!--Footer-->
+        <@wp.show frame=9 />
+        <!--END Footer-->
     </body>
 </html>');
 INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('PAM-widgets','PAM widgets DEMO','<?xml version="1.0" encoding="UTF-8"?>

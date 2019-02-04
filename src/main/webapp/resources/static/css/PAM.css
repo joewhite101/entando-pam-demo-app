@@ -6,7 +6,7 @@ body {
 .header-fix {
     background-color: #ffffff;
     box-shadow: 0 1px 1px #ccc;
-    padding: 20px 60px;
+    padding: 10px 60px;
     height: 100px;
     /* color: #ffffff; */
     box-sizing: border-box;
@@ -16,8 +16,8 @@ body {
     margin-bottom: 3em;
 }
 body.fixed .header-fix {
-    padding: 10px 40px;
-    height: 72px;
+    padding: 10px 60px;
+    height: 100px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -29,6 +29,7 @@ body.fixed .header-fix {
     line-height: 49px;
     margin: 0;
     font-size: 16px;
+    margin-top: 10px;
 }
 .header-fix .header-limit h1 {
     float: left;
@@ -59,14 +60,14 @@ hr {
     margin-top: 34px;
 }
 .btn-default {
-    background-color: #ff9f2a;
-    color: #fff;
-    border: 1px solid #ff9f2a;
+    color: #000;
+    border: 1px solid #333;    
+    background-color: #ffffff;
 }
 .btn-default:hover {
-    background-color: #ec8a13;
+    background-color: #006899;
     color: #fff;
-    border: 1px solid #ec8a13;
+    border: 1px solid #006899;
 }
 .btn-default.focus, .btn-default:focus {
     background-color: #ec8a13;
@@ -103,7 +104,7 @@ hr {
     background-color: #f0f4f6;
 }
 .footer2 {
-    background-color: #20364a;
+    background-color: #5e275e;
     color: #636e74;
     font-weight: 400;
     font-size: 17px;
@@ -138,8 +139,8 @@ hr {
     padding-top: 15px;
 }
 .newsletter-form .form-control {
-    background-color: #0078c1;
-    border-color: #1e2e38;
+    background-color: #420741;
+    border-color: #420741;
 }
 .newsletter-form .form-control:focus {
     color: #fff;
@@ -171,7 +172,7 @@ table {
 
 .nav > li.active {
     border-left: 0px solid #19aa8d;
-    background: #0078c1;
+    background: #5e275e;
 }
 
 .nav > li > a {

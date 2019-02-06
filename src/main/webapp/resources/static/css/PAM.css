@@ -180,3 +180,34 @@ table {
     font-weight: 600;
     padding: 13px 13px 12px 6px;
 }
+
+
+
+td.details-control {
+    background: url('../img/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.details td.details-control {
+    background: url('../img/details_close.png') no-repeat center center;
+}
+
+.showHideButtons {
+    position: relative;
+    clear: both;
+    background: #fff;
+    padding: 2em;
+    margin: 1em;
+    margin-bottom: 0px;
+}
+
+#bpm-task-details-ibox-content {
+    padding: 2em;
+    margin: 1em;
+}
+
+#bpm-task-details-title {
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: inherit;
+}
+

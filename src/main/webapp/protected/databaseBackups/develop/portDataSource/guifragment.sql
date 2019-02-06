@@ -2115,3 +2115,6 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
                 <span class=" text-right user-logged">User logged</span>
             </div>
         </header>',NULL,0);
+INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('PAM_Process_task_detail','PAM_Process_task_detail',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
+<div id="bpm-task-details"></div>
+<script type="text/javascript" src="<@wp.resourceURL />static/react-resources/fsi-ccd-admin-js-task-details/main.js"></script>',NULL,0);

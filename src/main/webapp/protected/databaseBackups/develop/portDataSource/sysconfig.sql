@@ -125,43 +125,6 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 </contenttypes>
 
 ');
-INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','jpkiebpm_config','PAM service configuration','<?xml version="1.0" encoding="UTF-8"?>
-<kiaBpmConfigFactory>
-   <kieBpmConfigeMap>
-      <entry>
-         <key>1</key>
-         <value>
-            <active>true</active>
-            <id>1</id>
-            <name>default</name>
-            <username>krisv</username>
-            <password>krisv</password>
-            <hostname>localhost</hostname>
-            <schema>http</schema>
-            <port>8080</port>
-            <webapp>kie-server</webapp>
-            <timeout>1000</timeout>
-         </value>
-      </entry>
-      <entry>
-         <key>6a3627948c654389bf1aaa8cbb1a12f720190124T130221982</key>
-         <value>
-            <active>true</active>
-            <id>6a3627948c654389bf1aaa8cbb1a12f720190124T130221982</id>
-            <name>PAM</name>
-            <username>pamAdmin</username>
-            <password>redhatpam1!</password>
-            <hostname>rhpam7-install-kieserver-rhpam7-install-entando.apps.serv.run</hostname>
-            <schema>http</schema>
-            <port>80</port>
-            <webapp></webapp>
-            <timeout>100000</timeout>
-            <debug>true</debug>
-         </value>
-      </entry>
-   </kieBpmConfigeMap>
-</kiaBpmConfigFactory>
-');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','dataTypeDefinitions','Definition of the Type Types','<?xml version="1.0" encoding="UTF-8"?>
 <datatypes>
 	<datatype typecode="AAA" typedescr="com.redhat.bpms.examples.mortgage.MortgageApplication_mortgage_1.0" viewpage="**NULL**" listmodel="1" defaultmodel="1">
@@ -180,10 +143,10 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','dataType
 ');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoComponentsReport','The component installation report','<?xml version="1.0" encoding="UTF-8"?>
 <reports status="OK">
-	<creation>2019-02-04 14:55:53</creation>
-	<lastupdate>2019-02-04 14:55:54</lastupdate>
+	<creation>2019-02-06 09:10:22</creation>
+	<lastupdate>2019-02-06 09:10:23</lastupdate>
 	<components>
-		<component code="entandoCore" date="2019-02-04 14:55:53" status="OK">
+		<component code="entandoCore" date="2019-02-06 09:10:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="OK">
 					<table name="sysconfig" />
@@ -230,7 +193,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="jprestapi" date="2019-02-04 14:55:53" status="OK">
+		<component code="jprestapi" date="2019-02-06 09:10:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -241,7 +204,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-login_form_inspinia" date="2019-02-04 14:55:53" status="OK">
+		<component code="entando-widget-login_form_inspinia" date="2019-02-06 09:10:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -252,7 +215,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="jacms" date="2019-02-04 14:55:53" status="OK">
+		<component code="jacms" date="2019-02-06 09:10:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="OK">
 					<table name="contentmodels" />
@@ -274,7 +237,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-content-generic" date="2019-02-04 14:55:54" status="OK">
+		<component code="entando-content-generic" date="2019-02-06 09:10:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -285,7 +248,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-language_choose_inspinia" date="2019-02-04 14:55:54" status="OK">
+		<component code="entando-widget-language_choose_inspinia" date="2019-02-06 09:10:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -296,7 +259,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-misc-inspinia" date="2019-02-04 14:55:54" status="OK">
+		<component code="entando-misc-inspinia" date="2019-02-06 09:10:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -307,7 +270,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-page-inspinia" date="2019-02-04 14:55:54" status="OK">
+		<component code="entando-page-inspinia" date="2019-02-06 09:10:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -318,7 +281,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-admin-console" date="2019-02-04 14:55:54" status="OK">
+		<component code="entando-admin-console" date="2019-02-06 09:10:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="OK">
@@ -331,7 +294,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-portal-ui" date="2019-02-04 14:55:54" status="OK">
+		<component code="entando-portal-ui" date="2019-02-06 09:10:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -342,7 +305,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-app-view-cms-default" date="2019-02-04 14:55:54" status="OK">
+		<component code="entando-app-view-cms-default" date="2019-02-06 09:10:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -353,7 +316,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="jpinfinispan" date="2019-02-04 14:55:54" status="OK">
+		<component code="jpinfinispan" date="2019-02-06 09:10:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -364,7 +327,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-navigation_bar_inspinia" date="2019-02-04 14:55:54" status="OK">
+		<component code="entando-widget-navigation_bar_inspinia" date="2019-02-06 09:10:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -375,7 +338,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-page-inspinia_BPM" date="2019-02-04 14:55:54" status="OK">
+		<component code="entando-page-inspinia_BPM" date="2019-02-06 09:10:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -386,7 +349,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="jpkiebpm" date="2019-02-04 14:55:54" status="OK">
+		<component code="jpkiebpm" date="2019-02-06 09:10:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="OK">
@@ -403,4 +366,26 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 	</components>
 </reports>
 
+');
+INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','jpkiebpm_config','PAM service configuration','<?xml version="1.0" encoding="UTF-8"?>
+<kiaBpmConfigFactory>
+   <kieBpmConfigeMap>
+      <entry>
+         <key>6a3627948c654389bf1aaa8cbb1a12f720190124T130221982</key>
+         <value>
+            <active>true</active>
+            <id>6a3627948c654389bf1aaa8cbb1a12f720190124T130221982</id>
+            <name>PAM</name>
+            <username>pamAdmin</username>
+            <password>redhatpam1!</password>
+            <hostname>rhpam7-install-kieserver-rhpam7-install-entando.apps.serv.run</hostname>
+            <schema>http</schema>
+            <port>80</port>
+            <webapp></webapp>
+            <timeout>100000</timeout>
+            <debug>true</debug>
+         </value>
+      </entry>
+   </kieBpmConfigeMap>
+</kiaBpmConfigFactory>
 ');

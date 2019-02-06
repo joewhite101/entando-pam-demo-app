@@ -8,12 +8,6 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('fo
 
 ');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('form',0,'demo_nav',NULL);
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',1,'bpm-datatable-task-list','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="widgetInfoId">44</property>
-</properties>
-
-');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',0,'demo_nav',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',6,'footer',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('case_widgets',2,'bpm-case-details','<?xml version="1.0" encoding="UTF-8"?>
@@ -68,3 +62,12 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ca
 
 ');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('case_widgets',0,'demo_nav',NULL);
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('task_details',0,'demo_nav',NULL);
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('task_details',6,'footer',NULL);
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('task_details',1,'PAM_Process_task_detail',NULL);
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',1,'bpm-datatable-task-list','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="widgetInfoId">100</property>
+</properties>
+
+');

@@ -252,3 +252,10 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 </properties>
 
 ',0,'free');
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('PAM_Process_task_detail','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">PAM Process task detail</property>
+<property key="it">PAM Process task detail</property>
+</properties>
+
+',NULL,NULL,NULL,NULL,0,'free');

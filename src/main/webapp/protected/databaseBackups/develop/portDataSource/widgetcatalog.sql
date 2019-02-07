@@ -207,13 +207,6 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 	<parameter name="linkDescr_{lang}">Link description in lang {lang}</parameter>
 	<action name="rowListViewerConfig" />
 </config>','jacms',NULL,NULL,1,'free');
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('footer','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Footer</property>
-<property key="it">Footer</property>
-</properties>
-
-',NULL,NULL,NULL,NULL,0,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando-widget-navigation_bar_inspinia','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Navigation - Bar (INSPINIA)</property>
@@ -259,3 +252,10 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 </properties>
 
 ',0,'free');
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('footer','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Footer</property>
+<property key="it">Footer</property>
+</properties>
+
+',NULL,NULL,NULL,NULL,0,'free');

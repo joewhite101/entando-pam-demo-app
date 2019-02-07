@@ -31,21 +31,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2019-02-07 12:48:20');
-INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('homepage','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Home</property>
-<property key="it">Home</property>
-</properties>
-
-','PAM-widgets',1,'<?xml version="1.0" encoding="UTF-8"?>
-<config>
-  <useextratitles>false</useextratitles>
-  <charset>utf-8</charset>
-  <mimeType>text/html</mimeType>
-</config>
-
-','2019-02-07 13:21:52');
+','2019-02-07 15:42:32');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('case_widgets','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Case Widgets</property>
@@ -59,4 +45,18 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2019-02-07 13:22:29');
+','2019-02-07 15:43:18');
+INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('homepage','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Home</property>
+<property key="it">Home</property>
+</properties>
+
+','PAM-widgets',1,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2019-02-07 15:41:46');

@@ -103,3 +103,6 @@ INSERT INTO actionlogrelations (recordid,refgroup) VALUES (127,'free');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (128,'administrators');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (129,'administrators');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (130,'free');
+INSERT INTO actionlogrelations (recordid,refgroup) VALUES (132,'free');
+INSERT INTO actionlogrelations (recordid,refgroup) VALUES (133,'free');
+INSERT INTO actionlogrelations (recordid,refgroup) VALUES (134,'free');

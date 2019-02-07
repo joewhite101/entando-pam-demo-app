@@ -6,7 +6,7 @@ INSERT INTO jpkiebpm_widgetinfo (id,pagecode,framepos_online,framepos_draft,widg
 </properties>
 
 ');
-INSERT INTO jpkiebpm_widgetinfo (id,pagecode,framepos_online,framepos_draft,widget_type,information_online,information_draft) VALUES (114,'homepage',1,1,'bpm-datatable-task-list','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO jpkiebpm_widgetinfo (id,pagecode,framepos_online,framepos_draft,widget_type,information_online,information_draft) VALUES (131,'homepage',1,1,'bpm-datatable-task-list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="field_containerId">field_containerId</property>
 <property key="field_processDefinitionId">field_processDefinitionId</property>
@@ -30,7 +30,7 @@ INSERT INTO jpkiebpm_widgetinfo (id,pagecode,framepos_online,framepos_draft,widg
 <property key="field_id">field_id</property>
 <property key="visible_parentId">true</property>
 <property key="visible_status">true</property>
-<property key="kieSourceId">6550582921a845a786fcf714e60a5d1720190207T083726748</property>
+<property key="kieSourceId">d2317d0a15f247f39987295da4c8563620190207T154108146</property>
 <property key="position_containerId">13</property>
 <property key="position_parentId">14</property>
 <property key="visible_id">true</property>
@@ -80,7 +80,7 @@ INSERT INTO jpkiebpm_widgetinfo (id,pagecode,framepos_online,framepos_draft,widg
 <property key="field_id">field_id</property>
 <property key="visible_parentId">true</property>
 <property key="visible_status">true</property>
-<property key="kieSourceId">6550582921a845a786fcf714e60a5d1720190207T083726748</property>
+<property key="kieSourceId">d2317d0a15f247f39987295da4c8563620190207T154108146</property>
 <property key="position_containerId">13</property>
 <property key="position_parentId">14</property>
 <property key="visible_id">true</property>

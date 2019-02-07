@@ -8,20 +8,7 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('fo
 
 ');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('form',0,'demo_nav',NULL);
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('task_details',2,'bpm-case-comments','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="channel">1</property>
-<property key="frontEndCaseData">{"container-id":"EDG_5.0.5","knowledge-source-id":"6550582921a845a786fcf714e60a5d1720190207T083726748"}</property>
-</properties>
-
-');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',0,'demo_nav',NULL);
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',1,'bpm-datatable-task-list','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="widgetInfoId">114</property>
-</properties>
-
-');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',6,'footer',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('case_widgets',0,'demo_nav',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('case_widgets',9,'footer',NULL);
@@ -64,10 +51,23 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ca
 </properties>
 
 ');
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',1,'bpm-datatable-task-list','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="widgetInfoId">131</property>
+</properties>
+
+');
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('task_details',2,'bpm-case-comments','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="channel">1</property>
+<property key="frontEndCaseData">{"container-id":"EDG_5.0.5","knowledge-source-id":"d2317d0a15f247f39987295da4c8563620190207T154108146"}</property>
+</properties>
+
+');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('case_widgets',1,'bpm-case-instance-selector','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="channel">1</property>
-<property key="frontEndCaseData">{"container-id":"EDG_5.0.5","knowledge-source-id":"6550582921a845a786fcf714e60a5d1720190207T083726748"}</property>
+<property key="frontEndCaseData">{"container-id":"EDG_5.0.5","knowledge-source-id":"d2317d0a15f247f39987295da4c8563620190207T154108146"}</property>
 </properties>
 
 ');

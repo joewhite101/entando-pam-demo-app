@@ -242,3 +242,7 @@ tr.details td.details-control {
 .container-bpm{
     margin-top:0px !important; 
 }
+
+body > footer > div > div {
+    border-width: 0px !important;
+}

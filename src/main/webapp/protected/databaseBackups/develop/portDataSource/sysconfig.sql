@@ -368,5 +368,24 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 
 ');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','jpkiebpm_config','PAM service configuration','<?xml version="1.0" encoding="UTF-8"?>
-<kiaBpmConfigFactory/>
+<kiaBpmConfigFactory>
+   <kieBpmConfigeMap>
+      <entry>
+         <key>d2317d0a15f247f39987295da4c8563620190207T154108146</key>
+         <value>
+            <active>true</active>
+            <id>d2317d0a15f247f39987295da4c8563620190207T154108146</id>
+            <name>redhat-pam</name>
+            <username>pamAdmin</username>
+            <password>redhatpam1!</password>
+            <hostname>rhpam-nodea.eastus2.cloudapp.azure.com</hostname>
+            <schema>http</schema>
+            <port>8080</port>
+            <webapp>kie-server</webapp>
+            <timeout>10000</timeout>
+            <debug>true</debug>
+         </value>
+      </entry>
+   </kieBpmConfigeMap>
+</kiaBpmConfigFactory>
 ');

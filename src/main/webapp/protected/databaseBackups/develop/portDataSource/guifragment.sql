@@ -1962,80 +1962,6 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
 	<p class="text-right"><a class="btn btn-primary" href="<@wp.url page="${pageLinkVar}"/>">${pageLinkDescriptionVar}</a></p>
 </#if>
 <#assign contentInfoList="">',1);
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('footer','footer',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
-<#assign c=JspTaglibs["http://java.sun.com/jsp/jstl/core"]> 
-
-  <footer class="footer2 ">
-            <div class="row ">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
-                    <div class="ft-logo"><img alt="image" class="logo" src="<@wp.imgURL />logo_footer.png"></div>
-
-                </div>
-            </div>
-            <hr class="footer2-line">
-            <div class="row ">
-                <!-- footer2-about -->
-                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 ">
-                    <div class="footer2-widget ">
-                        <div class="footer2-title">Company</div>
-                        <ul class="list-unstyled">
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Support</a></li>
-                            <li><a href="#">Press</a></li>
-                            <li><a href="#">Legal & Privacy</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- /.footer2-about -->
-                <!-- footer2-links -->
-                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 ">
-                    <div class="footer2-widget ">
-                        <div class="footer2-title">Quick Links</div>
-                        <ul class="list-unstyled">
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Contact us</a></li>
-                            <li><a href="#">FAQ</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- /.footer2-links -->
-                <!-- footer2-links -->
-                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 ">
-                    <div class="footer2-widget ">
-                        <div class="footer2-title">Social</div>
-                        <ul class="list-unstyled">
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Google +</a></li>
-                            <li><a href="#">Linked In</a></li>
-                            <li><a href="#">Facebook</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- /.footer2-links -->
-                <!-- footer2-links -->
-                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-6 col-6 ">
-                    <div class="footer2-widget ">
-                        <h3 class="footer2-title">Subscribe Newsletter</h3>
-                        <form>
-                            <div class="newsletter-form">
-                                <input class="form-control" placeholder="Enter Your Email address" type="text">
-                                <button class="btn btn-default btn-sm" type="submit">Apply</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <!-- /.footer2-links -->
-                <!-- tiny-footer2 -->
-            </div>
-            <div class="row ">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center ">
-                    <div class="tiny-footer2">
-                        <p>Copyright © All Rights Reserved 2019 |  Development by  someone <a href="https://#" target="_blank" class="copyrightlink">test test</a></p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- /.footer2 -->',NULL,0);
 INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('entando-widget-navigation_bar_inspinia','entando-widget-navigation_bar_inspinia',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
 
 <@wp.currentPage param="code" var="currentPageCode" />
@@ -2118,3 +2044,77 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
 INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('PAM_Process_task_detail','PAM_Process_task_detail',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
 <div id="bpm-task-details"></div>
 <script type="text/javascript" src="<@wp.resourceURL />static/react-resources/fsi-ccd-admin-js-task-details/main.js"></script>',NULL,0);
+INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('footer','footer',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
+<#assign c=JspTaglibs["http://java.sun.com/jsp/jstl/core"]> 
+
+  <footer class="footer2 ">
+            <div class="row ">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                    <div class="ft-logo"><img alt="image" class="logo" src="<@wp.imgURL />logo_footer.png"></div>
+
+                </div>
+            </div>
+            <hr class="footer2-line">
+            <div class="row ">
+                <!-- footer2-about -->
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 ">
+                    <div class="footer2-widget ">
+                        <div class="footer2-title">Company</div>
+                        <ul class="list-unstyled">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Legal & Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.footer2-about -->
+                <!-- footer2-links -->
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 ">
+                    <div class="footer2-widget ">
+                        <div class="footer2-title">Quick Links</div>
+                        <ul class="list-unstyled">
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.footer2-links -->
+                <!-- footer2-links -->
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 ">
+                    <div class="footer2-widget ">
+                        <div class="footer2-title">Social</div>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Google +</a></li>
+                            <li><a href="#">Linked In</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.footer2-links -->
+                <!-- footer2-links -->
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-6 col-6 ">
+                    <div class="footer2-widget ">
+                        <h3 class="footer2-title">Subscribe Newsletter</h3>
+                        <form>
+                            <div class="newsletter-form">
+                                <input class="form-control" placeholder="Enter Your Email address" type="text">
+                                <button class="btn btn-default btn-sm" type="submit">Apply</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- /.footer2-links -->
+                <!-- tiny-footer2 -->
+            </div>
+            <div class="row ">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center ">
+                    <div class="tiny-footer2">
+                        <p>Copyright © All Rights Reserved 2019 |  Development by  <a href="https://www.entando.com/" target="_blank" class="copyrightlink"> Entando </a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /.footer2 -->',NULL,0);

@@ -32,6 +32,20 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
 </config>
 
 ','2019-01-25 14:15:53');
+INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('homepage','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Home</property>
+<property key="it">Home</property>
+</properties>
+
+','PAM-widgets',1,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2019-02-07 13:21:52');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('case_widgets','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Case Widgets</property>
@@ -45,21 +59,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2019-02-04 16:06:59');
-INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('homepage','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Home page</property>
-<property key="it">Home page</property>
-</properties>
-
-','PAM-widgets',1,'<?xml version="1.0" encoding="UTF-8"?>
-<config>
-  <useextratitles>false</useextratitles>
-  <charset>utf-8</charset>
-  <mimeType>text/html</mimeType>
-</config>
-
-','2019-02-06 17:34:22');
+','2019-02-07 13:22:29');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('task_details','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">task-details</property>
@@ -73,4 +73,4 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2019-02-06 16:28:06');
+','2019-02-07 12:48:20');

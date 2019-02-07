@@ -200,14 +200,45 @@ tr.details td.details-control {
     margin-bottom: 0px;
 }
 
+.ibox-content {
+    padding: 15px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+}
+
 #bpm-task-details-ibox-content {
     padding: 2em;
     margin: 1em;
 }
 
 #bpm-task-details-title {
-    padding-bottom: 20px;
-    font-size: 24px;
+    background-color: rgb(255, 255, 255);
     color: inherit;
+    margin-bottom: 0px;
+    min-height: 30px;
+    border-color: rgb(231, 234, 236);
+    border-image: none 100% / 1 / 0 stretch;
+    border-style: none solid solid solid;
+    border-width: 0px 0px 1px;
+    padding: 0px 0px;
+    font-size: 18px;
+    font-weight: 700;
 }
 
+#bpm-task-details-ibox-content > div > div > p{    
+   margin: 10px 0 0 0;
+}
+.col-md-4{
+    border-bottom: 1px solid #eee;
+    min-height: 90px;
+}
+
+.white-bg {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+.container-bpm{
+    margin-top:0px !important; 
+}

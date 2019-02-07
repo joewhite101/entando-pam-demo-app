@@ -103,15 +103,6 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 	<parameter name="frontEndCaseData">frontEndCaseData</parameter>
 	<action name="jpkiebpmBpmCaseInstanceSelectorWidgetViewerConfig"/>
 </config>','jpkiebpm',NULL,NULL,1,NULL);
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('bpm-case-comments','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">PAM-Case comments</property>
-<property key="it">Commenti del caso PAM</property>
-</properties>','<config>
-        <parameter name="channel">channel</parameter>
-	<parameter name="frontEndCaseData">frontEndCaseData</parameter>
-	<action name="jpkiebpmBpmCaseInstanceCommentsWidgetViewerConfig"/>
-</config>','jpkiebpm',NULL,NULL,1,NULL);
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('bpm-case-details','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">PAM-Case details</property>
@@ -240,6 +231,22 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 </properties>
 
 ',NULL,NULL,NULL,NULL,0,'free');
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('PAM_Process_task_detail','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">PAM Process task detail</property>
+<property key="it">PAM Process task detail</property>
+</properties>
+
+',NULL,NULL,NULL,NULL,0,'free');
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('bpm-case-comments','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">PAM-Case comments</property>
+<property key="it">Commenti del caso PAM</property>
+</properties>','<config>
+        <parameter name="channel">channel</parameter>
+	<parameter name="frontEndCaseData">frontEndCaseData</parameter>
+	<action name="jpkiebpmBpmCaseInstanceSelectorWidgetViewerConfig"/>
+</config>','jpkiebpm',NULL,NULL,1,NULL);
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('demo_nav','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">widget demo nav</property>
@@ -248,14 +255,7 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 
 ',NULL,NULL,'entando-widget-navigation_bar_inspinia','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="navSpec">code(homepage) + code(form) + code(case_widgets)</property>
+<property key="navSpec">code(homepage) + code(case_widgets)</property>
 </properties>
 
 ',0,'free');
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('PAM_Process_task_detail','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">PAM Process task detail</property>
-<property key="it">PAM Process task detail</property>
-</properties>
-
-',NULL,NULL,NULL,NULL,0,'free');

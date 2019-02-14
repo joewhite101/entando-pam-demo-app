@@ -125,22 +125,6 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 </contenttypes>
 
 ');
-INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','dataTypeDefinitions','Definition of the Type Types','<?xml version="1.0" encoding="UTF-8"?>
-<datatypes>
-	<datatype typecode="AAA" typedescr="com.redhat.bpms.examples.mortgage.MortgageApplication_mortgage_1.0" viewpage="**NULL**" listmodel="1" defaultmodel="1">
-		<attributes>
-			<attribute name="application_downPayment" attributetype="Number" />
-			<attribute name="application_amortization" attributetype="Number" />
-			<attribute name="applicant_name" attributetype="Monotext" />
-			<attribute name="applicant_ssn" attributetype="Number" />
-			<attribute name="applicant_income" attributetype="Number" />
-			<attribute name="property_address" attributetype="Monotext" />
-			<attribute name="property_price" attributetype="Number" />
-		</attributes>
-	</datatype>
-</datatypes>
-
-');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoComponentsReport','The component installation report','<?xml version="1.0" encoding="UTF-8"?>
 <reports status="OK">
 	<creation>2019-02-06 09:10:22</creation>
@@ -388,4 +372,8 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','jpkiebpm
       </entry>
    </kieBpmConfigeMap>
 </kiaBpmConfigFactory>
+');
+INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','dataTypeDefinitions','Definition of the Type Types','<?xml version="1.0" encoding="UTF-8"?>
+<datatypes />
+
 ');

@@ -460,16 +460,16 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('PAM-w
 		<sketch x1="0" y1="3" x2="5" y2="6" />
 	</frame>
 	<frame pos="4">
-		<descr>Widget 5</descr>
+		<descr>Widget 4</descr>
 		<sketch x1="6" y1="3" x2="11" y2="6" />
 	</frame>
 	<frame pos="5">
 		<descr>Widget 5</descr>
-		<sketch x1="0" y1="7" x2="11" y2="10" />
+		<sketch x1="0" y1="7" x2="11" y2="7" />
 	</frame>
 	<frame pos="6">
 		<descr>Footer</descr>
-		<sketch x1="0" y1="11" x2="11" y2="12" />
+		<sketch x1="0" y1="8" x2="11" y2="12" />
 	</frame>
 </frames>
 
@@ -516,16 +516,18 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('PAM-w
                     <@wp.show frame=2 />
                 </div>
             </div>
-            <div class="row white-bg">
-                <div class="col-md-12">
+            
+            <div>
+                <div class="col-md-6">
                     <@wp.show frame=3 />
                 </div>
-            </div>
-            <div class="row white-bg">
                 <div class="col-md-6">
                     <@wp.show frame=4 />
                 </div>
-                <div class="col-md-6">
+            </div>
+            
+            <div class="row white-bg">
+                <div class="col-md-12">
                     <@wp.show frame=5 />
                 </div>
             </div>

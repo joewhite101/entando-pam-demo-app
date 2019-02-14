@@ -259,3 +259,13 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 </properties>
 
 ',NULL,NULL,NULL,NULL,0,'free');
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('bpm-datatype-task-form','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">PAM-Task Form by DataType</property>
+<property key="it">PAM-Task Form by DataType</property>
+</properties>','<config>
+	<parameter name="dataTypeCode">Data Type Code</parameter>
+	<parameter name="dataUxId">Data Ux ID</parameter>
+	<parameter name="widgetInfoId">Widget Info ID</parameter>
+	<action name="jpkiebpmBpmTaskFormWidgetViewerConfig"/>
+</config>','jpkiebpm',NULL,NULL,1,NULL);

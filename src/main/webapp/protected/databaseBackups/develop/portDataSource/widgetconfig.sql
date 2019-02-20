@@ -1,6 +1,6 @@
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('task_details',3,'bpm-datatype-task-form','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="widgetInfoId">348</property>
+<property key="widgetInfoId">370</property>
 </properties>
 
 ');
@@ -14,14 +14,6 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('task_det
 
 ');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('task_details',1,'PAM_Process_task_detail',NULL);
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',0,'demo_nav',NULL);
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',6,'footer',NULL);
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',2,'bpm-datatable-task-list','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="widgetInfoId">356</property>
-</properties>
-
-');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('case_widgets',0,'demo_nav',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('case_widgets',9,'footer',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('case_widgets',2,'bpm-case-details','<?xml version="1.0" encoding="UTF-8"?>
@@ -73,6 +65,22 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('case_wid
 <property key="channel">1</property>
 <property key="progressBarType">stacked</property>
 <property key="showNumberOfTasks">true</property>
+</properties>
+
+');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('new_process',2,'bpm-datatype-form','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="dataTypeCode">AAA</property>
+<property key="widgetInfoId">387</property>
+<property key="dataUxId">1</property>
+</properties>
+
+');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',0,'demo_nav',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',6,'footer',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',2,'bpm-datatable-task-list','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="widgetInfoId">425</property>
 </properties>
 
 ');

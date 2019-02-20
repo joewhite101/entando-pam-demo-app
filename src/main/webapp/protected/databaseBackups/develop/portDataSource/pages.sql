@@ -5,3 +5,4 @@ INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('errorpage','service',
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('homepage','homepage',-1,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('case_widgets','homepage',2,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('task_details','homepage',3,'free');
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('new_process','homepage',4,'free');

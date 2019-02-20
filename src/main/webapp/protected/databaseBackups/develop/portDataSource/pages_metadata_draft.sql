@@ -32,10 +32,10 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
 </config>
 
 ','2019-02-07 15:43:18');
-INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('homepage','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('new_process','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Home</property>
-<property key="it">Home</property>
+<property key="en">new-process</property>
+<property key="it">new-process</property>
 </properties>
 
 ','PAM-widgets',1,'<?xml version="1.0" encoding="UTF-8"?>
@@ -45,7 +45,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2019-02-14 15:37:20');
+','2019-02-15 18:05:02');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('task_details','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">task-details</property>
@@ -59,4 +59,18 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2019-02-14 15:14:06');
+','2019-02-15 16:26:29');
+INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('homepage','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Home</property>
+<property key="it">Home</property>
+</properties>
+
+','PAM-widgets',1,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2019-02-20 10:48:25');

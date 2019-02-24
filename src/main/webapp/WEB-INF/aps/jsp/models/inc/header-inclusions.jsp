@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="<wp:resourceURL />static/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="<wp:resourceURL />static/css/animate.css" rel="stylesheet">
 <link rel="stylesheet" href="<wp:resourceURL />static/css/bpm-inspinia-overrides.css" rel="stylesheet">
+<link rel="stylesheet" href="<wp:resourceURL />static/css/PAM.css" rel="stylesheet">
 
 <script src="<wp:resourceURL />static/js/bootstrap.min.js"></script>
 <script src="<wp:resourceURL />static/js/inspinia.js"></script>

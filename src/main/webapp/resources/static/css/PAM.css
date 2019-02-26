@@ -104,7 +104,7 @@ hr {
     background-color: #f0f4f6;
 }
 .footer2 {
-    background-color: #5e275e;
+    background-color: #20A8E0;
     color: #636e74;
     font-weight: 400;
     font-size: 17px;
@@ -139,7 +139,7 @@ hr {
     padding-top: 15px;
 }
 .newsletter-form .form-control {
-    background-color: #420741;
+    background-color: white;
     border-color: #420741;
 }
 .newsletter-form .form-control:focus {
@@ -172,7 +172,7 @@ table {
 
 .nav > li.active {
     border-left: 0px solid #19aa8d;
-    background: #5e275e;
+    background: #20A8E0;
 }
 
 .nav > li > a {
@@ -246,4 +246,12 @@ tr.details td.details-control {
 
 body > footer > div > div {
     border-width: 0px !important;
+}
+
+.logo {
+    max-height:95px;
+    max-width:500px;
+    height:auto;
+    width:auto;
+
 }

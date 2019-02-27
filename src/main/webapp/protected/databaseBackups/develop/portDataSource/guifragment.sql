@@ -2050,7 +2050,7 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
   <footer class="footer2 ">
             <div class="row ">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
-                    <div class="ft-logo"><img alt="image" class="logo" src="<@wp.imgURL />logo_footer.png"></div>
+                    <div class="ft-logo"><img alt="image" class="logo" src="<@wp.imgURL />entando-logo.png"></div>
 
                 </div>
             </div>

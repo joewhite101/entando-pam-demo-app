@@ -16,12 +16,6 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ne
 </properties>
 
 ');
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',2,'bpm-datatable-task-list','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="widgetInfoId">425</property>
-</properties>
-
-');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('task_details',0,'demo_nav',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('task_details',6,'footer',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('task_details',4,'bpm-case-comments','<?xml version="1.0" encoding="UTF-8"?>
@@ -81,6 +75,12 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ca
 <property key="channel">1</property>
 <property key="progressBarType">stacked</property>
 <property key="showNumberOfTasks">true</property>
+</properties>
+
+');
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',2,'bpm-datatable-task-list','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="widgetInfoId">427</property>
 </properties>
 
 ');

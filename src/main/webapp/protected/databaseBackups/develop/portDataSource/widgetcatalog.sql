@@ -1,62 +1,3 @@
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('messages_system','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">System Messages</property>
-<property key="it">Messaggi di Sistema</property>
-</properties>',NULL,NULL,NULL,NULL,1,NULL);
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('login_form','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Login Form</property>
-<property key="it">Form di Login</property>
-</properties>',NULL,NULL,NULL,NULL,1,NULL);
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('formAction','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Internal Servlet</property>
-<property key="it">Invocazione di una Servlet Interna</property>
-</properties>','<config>
-	<parameter name="actionPath">
-		Path to an action or to a JSP. You must prepend ''/ExtStr2'' to any Struts2 action path
-	</parameter>
-	<action name="configSimpleParameter"/>
-</config>',NULL,NULL,NULL,1,NULL);
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando_apis','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">APIs</property>
-<property key="it">APIs</property>
-</properties>
-',NULL,NULL,'formAction','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="actionPath">/ExtStr2/do/Front/Api/Resource/list.action</property>
-</properties>
-',1,'free');
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('userprofile_editCurrentUser','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Edit Current User</property>
-<property key="it">Edita Utente Corrente</property>
-</properties>',NULL,NULL,'formAction','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="actionPath">/ExtStr2/do/Front/CurrentUser/edit.action</property>
-</properties>',1,NULL);
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('userprofile_editCurrentUser_password','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Edit Current User Password</property>
-<property key="it">Edita Password Utente Corrente</property>
-</properties>',NULL,NULL,'formAction','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="actionPath">/ExtStr2/do/Front/CurrentUser/editPassword.action</property>
-</properties>',1,NULL);
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('userprofile_editCurrentUser_profile','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Edit Current User Profile</property>
-<property key="it">Edita Profilo Utente Corrente</property>
-</properties>',NULL,NULL,'formAction','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="actionPath">/ExtStr2/do/Front/CurrentUser/Profile/edit.action</property>
-</properties>',1,NULL);
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando-widget-login_form_inspinia','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Dropdown Sign In (INSPINIA)</property>
-<property key="it">Dropdown Sign In (INSPINIA)</property>
-</properties>',NULL,NULL,NULL,NULL,1,NULL);
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('bpm-datatype-form','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">PAM-Form by DataType</property>
@@ -121,6 +62,65 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 	<parameter name="frontEndCaseData">frontEndCaseData</parameter>
 	<action name="jpkiebpmBpmCaseInstanceActionsWidgetViewerConfig"/>
 </config>','jpkiebpm',NULL,NULL,1,NULL);
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('messages_system','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">System Messages</property>
+<property key="it">Messaggi di Sistema</property>
+</properties>',NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('login_form','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Login Form</property>
+<property key="it">Form di Login</property>
+</properties>',NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('formAction','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Internal Servlet</property>
+<property key="it">Invocazione di una Servlet Interna</property>
+</properties>','<config>
+	<parameter name="actionPath">
+		Path to an action or to a JSP. You must prepend ''/ExtStr2'' to any Struts2 action path
+	</parameter>
+	<action name="configSimpleParameter"/>
+</config>',NULL,NULL,NULL,1,NULL);
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando_apis','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">APIs</property>
+<property key="it">APIs</property>
+</properties>
+',NULL,NULL,'formAction','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="actionPath">/ExtStr2/do/Front/Api/Resource/list.action</property>
+</properties>
+',1,'free');
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('userprofile_editCurrentUser','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Edit Current User</property>
+<property key="it">Edita Utente Corrente</property>
+</properties>',NULL,NULL,'formAction','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="actionPath">/ExtStr2/do/Front/CurrentUser/edit.action</property>
+</properties>',1,NULL);
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('userprofile_editCurrentUser_password','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Edit Current User Password</property>
+<property key="it">Edita Password Utente Corrente</property>
+</properties>',NULL,NULL,'formAction','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="actionPath">/ExtStr2/do/Front/CurrentUser/editPassword.action</property>
+</properties>',1,NULL);
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('userprofile_editCurrentUser_profile','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Edit Current User Profile</property>
+<property key="it">Edita Profilo Utente Corrente</property>
+</properties>',NULL,NULL,'formAction','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="actionPath">/ExtStr2/do/Front/CurrentUser/Profile/edit.action</property>
+</properties>',1,NULL);
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando-widget-login_form_inspinia','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Dropdown Sign In (INSPINIA)</property>
+<property key="it">Dropdown Sign In (INSPINIA)</property>
+</properties>',NULL,NULL,NULL,NULL,1,NULL);
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('bpm-case-roles','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">PAM-Case roles</property>
@@ -252,13 +252,6 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 </properties>
 
 ',0,'free');
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('footer','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Footer</property>
-<property key="it">Footer</property>
-</properties>
-
-',NULL,NULL,NULL,NULL,0,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('bpm-datatype-task-form','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">PAM-Task Form by DataType</property>
@@ -269,3 +262,10 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 	<parameter name="widgetInfoId">Widget Info ID</parameter>
 	<action name="jpkiebpmBpmTaskFormWidgetViewerConfig"/>
 </config>','jpkiebpm',NULL,NULL,1,NULL);
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('footer','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Footer</property>
+<property key="it">Footer</property>
+</properties>
+
+',NULL,NULL,NULL,NULL,0,'free');

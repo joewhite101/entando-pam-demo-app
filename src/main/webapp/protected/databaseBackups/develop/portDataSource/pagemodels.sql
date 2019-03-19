@@ -113,9 +113,9 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entan
         <header class="header-fix">
             <div class="header-limit">
                 <h1>
-                    <img alt="image" class="logo" src="<@wp.imgURL />logo_big.png">
+                    <img alt="image" class="logo" src="<@wp.imgURL />entando-logo.png">
                 </h1>
-                <span class=" text-right user-logged"> Admin
+                <span class=" text-right user-logged">
                     <@wp.show frame=0 />
                 </span>
             </div>
@@ -497,7 +497,7 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('PAM-w
                 <h1>
                     <img alt="image" class="logo" src="<@wp.imgURL />entando-logo.png">
                 </h1>
-                <span class=" text-right user-logged"> Admin
+                <span class=" text-right user-logged">
                     <@wp.show frame=0 />
                 </span>
             </div>

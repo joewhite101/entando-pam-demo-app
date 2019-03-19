@@ -248,7 +248,7 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 
 ',NULL,NULL,'entando-widget-navigation_bar_inspinia','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="navSpec">code(homepage) + code(case_widgets)</property>
+<property key="navSpec">code(homepage) + code(new_process) +code(case_widgets)</property>
 </properties>
 
 ',0,'free');

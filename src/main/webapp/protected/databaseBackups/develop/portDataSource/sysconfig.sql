@@ -125,12 +125,52 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 </contenttypes>
 
 ');
+INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','jpkiebpm_config','PAM service configuration','<?xml version="1.0" encoding="UTF-8"?>
+<kiaBpmConfigFactory>
+   <kieBpmConfigeMap>
+      <entry>
+         <key>d2317d0a15f247f39987295da4c8563620190207T154108146</key>
+         <value>
+            <active>true</active>
+            <id>d2317d0a15f247f39987295da4c8563620190207T154108146</id>
+            <name>entando-pam</name>
+            <username>pamAdmin</username>
+            <password>redhatpam1!</password>
+            <hostname>rhpam7-install-kieserver-rhpam7-install-entando.apps.serv.run</hostname>
+            <schema>http</schema>
+            <port>80</port>
+            <webapp></webapp>
+            <timeout>10000</timeout>
+            <debug>true</debug>
+         </value>
+      </entry>
+   </kieBpmConfigeMap>
+</kiaBpmConfigFactory>
+');
+INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','dataTypeDefinitions','Definition of the Type Types','<?xml version="1.0" encoding="UTF-8"?>
+<datatypes>
+	<datatype typecode="AAA" typedescr="Mortgage_Process.MortgageApprovalProcess_mortgage-process_1.0.0-SNAPSHOT" viewpage="**NULL**" listmodel="1" defaultmodel="1">
+		<attributes>
+			<attribute name="application_downpayment" attributetype="Number" />
+			<attribute name="application_amortization" attributetype="Number" />
+			<attribute name="applicant_name" attributetype="Monotext" />
+			<attribute name="applicant_annualincome" attributetype="Number" />
+			<attribute name="applicant_ssn" attributetype="Number" />
+			<attribute name="property_age" attributetype="Number" />
+			<attribute name="property_address" attributetype="Monotext" />
+			<attribute name="property_locale" attributetype="Monotext" />
+			<attribute name="property_saleprice" attributetype="Number" />
+		</attributes>
+	</datatype>
+</datatypes>
+
+');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoComponentsReport','The component installation report','<?xml version="1.0" encoding="UTF-8"?>
 <reports status="OK">
-	<creation>2019-02-06 09:10:22</creation>
-	<lastupdate>2019-02-06 09:10:23</lastupdate>
+	<creation>2019-03-19 08:44:19</creation>
+	<lastupdate>2019-03-19 08:44:25</lastupdate>
 	<components>
-		<component code="entandoCore" date="2019-02-06 09:10:22" status="OK">
+		<component code="entandoCore" date="2019-03-19 08:44:19" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="OK">
 					<table name="sysconfig" />
@@ -177,7 +217,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="jprestapi" date="2019-02-06 09:10:22" status="OK">
+		<component code="jprestapi" date="2019-03-19 08:44:20" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -188,7 +228,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-login_form_inspinia" date="2019-02-06 09:10:22" status="OK">
+		<component code="entando-widget-login_form_inspinia" date="2019-03-19 08:44:20" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -199,7 +239,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="jacms" date="2019-02-06 09:10:22" status="OK">
+		<component code="jacms" date="2019-03-19 08:44:20" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="OK">
 					<table name="contentmodels" />
@@ -221,7 +261,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-content-generic" date="2019-02-06 09:10:22" status="OK">
+		<component code="entando-content-generic" date="2019-03-19 08:44:21" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -232,7 +272,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-language_choose_inspinia" date="2019-02-06 09:10:22" status="OK">
+		<component code="entando-widget-language_choose_inspinia" date="2019-03-19 08:44:21" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -243,7 +283,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-misc-inspinia" date="2019-02-06 09:10:22" status="OK">
+		<component code="entando-misc-inspinia" date="2019-03-19 08:44:21" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -254,7 +294,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-page-inspinia" date="2019-02-06 09:10:22" status="OK">
+		<component code="entando-page-inspinia" date="2019-03-19 08:44:21" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -265,7 +305,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-admin-console" date="2019-02-06 09:10:22" status="OK">
+		<component code="entando-admin-console" date="2019-03-19 08:44:21" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="OK">
@@ -278,7 +318,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-portal-ui" date="2019-02-06 09:10:22" status="OK">
+		<component code="entando-portal-ui" date="2019-03-19 08:44:21" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -289,7 +329,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-app-view-cms-default" date="2019-02-06 09:10:22" status="OK">
+		<component code="entando-app-view-cms-default" date="2019-03-19 08:44:21" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -300,7 +340,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="jpinfinispan" date="2019-02-06 09:10:22" status="OK">
+		<component code="jpinfinispan" date="2019-03-19 08:44:21" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -311,7 +351,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-navigation_bar_inspinia" date="2019-02-06 09:10:22" status="OK">
+		<component code="entando-widget-navigation_bar_inspinia" date="2019-03-19 08:44:21" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -322,7 +362,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-page-inspinia_BPM" date="2019-02-06 09:10:22" status="OK">
+		<component code="entando-page-inspinia_BPM" date="2019-03-19 08:44:21" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -333,7 +373,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="jpkiebpm" date="2019-02-06 09:10:22" status="OK">
+		<component code="jpkiebpm" date="2019-03-19 08:44:21" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="OK">
@@ -349,95 +389,5 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 		</component>
 	</components>
 </reports>
-
-');
-INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','jpkiebpm_config','PAM service configuration','<?xml version="1.0" encoding="UTF-8"?>
-<kiaBpmConfigFactory>
-   <kieBpmConfigeMap>
-      <entry>
-         <key>d2317d0a15f247f39987295da4c8563620190207T154108146</key>
-         <value>
-            <active>true</active>
-            <id>d2317d0a15f247f39987295da4c8563620190207T154108146</id>
-            <name>redhat-pam</name>
-            <username>pamAdmin</username>
-            <password>redhatpam1!</password>
-            <hostname>rhpam-nodea.eastus2.cloudapp.azure.com</hostname>
-            <schema>http</schema>
-            <port>8080</port>
-            <webapp>kie-server</webapp>
-            <timeout>10000</timeout>
-            <debug>true</debug>
-         </value>
-      </entry>
-   </kieBpmConfigeMap>
-</kiaBpmConfigFactory>
-');
-INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','dataTypeDefinitions','Definition of the Type Types','<?xml version="1.0" encoding="UTF-8"?>
-<datatypes>
-	<datatype typecode="AAA" typedescr="EDG-Load-Deposit-Exceptions_EDG_5.0.5" viewpage="**NULL**" listmodel="1" defaultmodel="1">
-		<attributes>
-			<attribute name="AllyCaseData_caseType" attributetype="Monotext" />
-			<attribute name="AllyCaseData_caseModelType" attributetype="Monotext" />
-			<attribute name="AllyCaseData_caseModelName" attributetype="Monotext" />
-			<attribute name="AllyCaseData_caseStrategy" attributetype="Monotext" />
-			<attribute name="AllyCaseData_primaryDisposition" attributetype="Monotext" />
-			<attribute name="AllyCaseData_caseSubCategory" attributetype="Monotext" />
-			<attribute name="AllyCaseData_caseInformation" attributetype="Monotext" />
-			<attribute name="AllyCaseData_cmxGroup" attributetype="Monotext" />
-			<attribute name="ExceptionSummary_planId" attributetype="Monotext" />
-			<attribute name="ExceptionSummary_ruleName" attributetype="Monotext" />
-			<attribute name="ExceptionSummary_ruleRunDate" attributetype="Date" />
-			<attribute name="ExceptionSummary_ruleDescription" attributetype="Monotext" />
-			<attribute name="ExceptionItem_exceptionOwner" attributetype="Monotext">
-				<validations>
-					<required>true</required>
-				</validations>
-			</attribute>
-			<attribute name="ExceptionItem_exceptionStatus" attributetype="Monotext">
-				<validations>
-					<required>true</required>
-				</validations>
-			</attribute>
-			<attribute name="ExceptionItem_businessGlossaryTermCategory" attributetype="Monotext" />
-			<attribute name="ExceptionItem_businessGlossaryTermName" attributetype="Monotext" />
-			<attribute name="ExceptionItem_identifyingProcess" attributetype="Monotext" />
-			<attribute name="ExceptionItem_bGSteward" attributetype="Monotext" />
-			<attribute name="ExceptionItem_sourceSystem" attributetype="Monotext" />
-			<attribute name="ExceptionItem_elementMapping" attributetype="Monotext" />
-			<attribute name="ExceptionItem_exceptionDescription" attributetype="Monotext" />
-			<attribute name="ExceptionItem_rootCause" attributetype="Monotext" />
-			<attribute name="ExceptionCalculation_exceptionSeverity" attributetype="Monotext" />
-			<attribute name="ExceptionCalculation_actionRequiredBy" attributetype="Date" />
-			<attribute name="ExceptionMatrixResult_matrixRating" attributetype="Monotext" />
-			<attribute name="ExceptionMatrixResult_dateDetermined" attributetype="Date" />
-			<attribute name="ExceptionEscalation_openPageID" attributetype="Monotext" />
-			<attribute name="ExceptionEscalation_escalationDate" attributetype="Date" />
-			<attribute name="ExceptionRemediation_remediationOwnerName" attributetype="Monotext" />
-			<attribute name="ExceptionRemediation_targetRemediationDate" attributetype="Date" />
-			<attribute name="ExceptionRemediation_actualRemediationDate" attributetype="Date" />
-			<attribute name="ExceptionRemediation_remediationDescription" attributetype="Monotext" />
-			<attribute name="ExceptionClose_targetCloseDate" attributetype="Date" />
-			<attribute name="ExceptionClose_actualCloseDate" attributetype="Date" />
-			<attribute name="ExceptionClose_closeReason" attributetype="Monotext" />
-			<attribute name="ExceptionClose_finalDisposition" attributetype="Monotext" />
-			<attribute name="ExceptionMonitoring_monitoringReason" attributetype="Monotext" />
-			<attribute name="ExceptionMonitoring_monitoringComments" attributetype="Monotext" />
-			<list name="ExceptionImpact_impactCategory" attributetype="Monolist">
-				<nestedtype>
-					<attribute name="ExceptionImpact_impactCategory" attributetype="Monotext" />
-				</nestedtype>
-			</list>
-			<attribute name="ExceptionImpact_impactDescription" attributetype="Monotext" />
-			<attribute name="decisionOutcome_queueName" attributetype="Monotext" />
-			<attribute name="decisionOutcome_managerQueueName" attributetype="Monotext" />
-			<attribute name="decisionOutcome_taskName" attributetype="Monotext" />
-			<attribute name="decisionOutcome_remediationQueueName" attributetype="Monotext" />
-			<attribute name="decisionOutcome_remediationManagerName" attributetype="Monotext" />
-			<attribute name="decisionOutcome_exceptionDetailsUrl" attributetype="Monotext" />
-			<attribute name="decisionOutcome_exceptionSummaryUrl" attributetype="Monotext" />
-		</attributes>
-	</datatype>
-</datatypes>
 
 ');

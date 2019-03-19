@@ -706,3 +706,5 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_Updated-S
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_Updated-SP-By','it','Updated By');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_Updated-SP-Date','en','Updated Date');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_Updated-SP-Date','it','Updated Date');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_FORM_Qualify-taskform','en','Qualify-taskform');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('JPKIE_FORM_Qualify-taskform','it','Qualify-taskform');

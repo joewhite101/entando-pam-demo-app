@@ -1,4 +1,4 @@
-# entando-pam-app-5.0.3
-An Entando App with Red Hat Process Automation Manager integration for version 5.0.3
+# entando-pam-app-5.2.0
+An Entando App with Red Hat Process Automation Manager integration for version 5.2.0
 
-mvn clean jetty:run -Djetty.reload=manual
+`mvn clean package -Pjetty-local -Pderby jetty:run -DskipDocker -Djetty.port=8082`

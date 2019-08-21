@@ -126,26 +126,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 
 ');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','jpkiebpm_config','PAM service configuration','<?xml version="1.0" encoding="UTF-8"?>
-<kiaBpmConfigFactory>
-   <kieBpmConfigeMap>
-      <entry>
-         <key>d2317d0a15f247f39987295da4c8563620190207T154108146</key>
-         <value>
-            <active>true</active>
-            <id>d2317d0a15f247f39987295da4c8563620190207T154108146</id>
-            <name>entando-pam</name>
-            <username>pamAdmin</username>
-            <password>redhatpam1!</password>
-            <hostname>rhpam7-install-kieserver-rhpam7-install-entando.apps.serv.run</hostname>
-            <schema>http</schema>
-            <port>80</port>
-            <webapp></webapp>
-            <timeout>10000</timeout>
-            <debug>true</debug>
-         </value>
-      </entry>
-   </kieBpmConfigeMap>
-</kiaBpmConfigFactory>
+<kiaBpmConfigFactory/>
 ');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','dataTypeDefinitions','Definition of the Type Types','<?xml version="1.0" encoding="UTF-8"?>
 <datatypes>

@@ -1,11 +1,3 @@
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',0,'demo_nav',NULL);
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',2,'bpm-datatable-task-list','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="widgetInfoId">429</property>
-</properties>
-
-');
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',6,'footer',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('task_details',0,'demo_nav',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('task_details',1,'PAM_Process_task_detail',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('task_details',3,'bpm-datatype-task-form','<?xml version="1.0" encoding="UTF-8"?>
@@ -78,3 +70,11 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('case_wid
 
 ');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('case_widgets',9,'footer',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('task_list',0,'demo_nav',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('task_list',2,'bpm-datatable-task-list','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="widgetInfoId">452</property>
+</properties>
+
+');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('task_list',6,'footer',NULL);

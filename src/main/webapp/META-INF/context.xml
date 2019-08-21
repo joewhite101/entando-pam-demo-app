@@ -19,19 +19,19 @@
 
     <Environment name="indexDiskRootFolder" value="/projects/entando/customer/redhat/entando-pam-demo-app/target/temp/indexdir" type="java.lang.String" override="false" />
     
-    <Environment name="portDataSourceClassName" value="org.postgresql.Driver" type="java.lang.String" override="false" />
-    <Environment name="servDataSourceClassName" value="org.postgresql.Driver" type="java.lang.String" override="false" />
+    <Environment name="portDataSourceClassName" value="org.apache.derby.jdbc.EmbeddedDriver" type="java.lang.String" override="false" />
+    <Environment name="servDataSourceClassName" value="org.apache.derby.jdbc.EmbeddedDriver" type="java.lang.String" override="false" />
 	
     <Resource name="jdbc/portDataSource" auth="Container"
-              type="javax.sql.DataSource" driverClassName="org.postgresql.Driver"
+              type="javax.sql.DataSource" driverClassName="org.apache.derby.jdbc.EmbeddedDriver"
               maxActive="8" maxIdle="4"
               username="agile" password="agile"
-              url="jdbc:postgresql://localhost:5432/entando-pam-app-5.0.3Port" />
+              url="jdbc:derby:/projects/entando/customer/redhat/entando-pam-demo-app/target/derby/production/entando-pam-app-5.0.3Port;create=true" />
 
     <Resource name="jdbc/servDataSource" auth="Container"
-              type="javax.sql.DataSource" driverClassName="org.postgresql.Driver"
+              type="javax.sql.DataSource" driverClassName="org.apache.derby.jdbc.EmbeddedDriver"
               maxActive="8" maxIdle="4"
               username="agile" password="agile"
-              url="jdbc:postgresql://localhost:5432/entando-pam-app-5.0.3Serv" />
+              url="jdbc:derby:/projects/entando/customer/redhat/entando-pam-demo-app/target/derby/production/entando-pam-app-5.0.3Serv;create=true" />
 
 </Context>

@@ -2,8 +2,8 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          metadata-complete="false" version="3.0">
-    <display-name>entando-pam-app-5.0.3 - powered by Entando</display-name>
-    <description>entando-pam-app-5.0.3 - powered by Entando</description>
+    <display-name>Entando PAM App - powered by Entando</display-name>
+    <description>Entando PAM App - powered by Entando</description>
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>
